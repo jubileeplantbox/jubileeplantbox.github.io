@@ -1,0 +1,250 @@
+body {
+    background: white;
+    color: rgb(45, 45, 45);
+    margin: 0px;
+    padding: 0px;
+    font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+}
+header {
+    font-size: 1.5em;
+    font-weight: bold;   
+}
+
+/* navigation menu */
+nav {
+    /*background: #32478A;*/
+    max-width: 800px;
+    margin: 10px auto 0px;
+    display: flex;
+}
+nav header {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    flex: 1;
+}
+
+#nav-logo {
+    height: 70px;
+}
+
+#nav-links ul{
+    list-style-image: none;
+    font-size: 20px;
+}
+nav li {
+    display: inline-block;
+    padding: 0 20px;
+}
+#nav-links a {
+    text-decoration: none;
+    color: #737373;
+}
+
+/* main container area beneath menu */
+main {
+    /*background: rgb(245, 238, 219);*/
+    /*display: flex;*/
+}
+
+#banner img{
+    filter: brightness(70%);
+    width: 100%;
+}
+
+#banner {
+    color: white;
+}
+
+#banner .column {
+    position: relative;
+    font-size: 52px;
+    margin-bottom: -13px;
+}
+
+#banner-img-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button:active {
+    filter: brightness(85%);
+}
+button:focus {
+    outline:0;
+}
+
+.button-signup {
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px solid #737373;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    background-color: #f0e3e6;
+    color:#5e3740;
+}
+
+.button-signup:hover {
+    background-color: #5e3740;
+    color: #f0e3e6;
+}
+
+.row {
+    /*width: 100%;*/
+    display: flex;
+}
+
+.column {
+    flex: 1;
+}
+
+.column div {
+    text-align: center;
+}
+
+#products {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 0px 50px;
+}
+
+.product {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product img {
+    width: 100%;
+    margin-bottom:20px;
+}
+
+.product-title{
+    color: #5e3740;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#mission{
+    margin: 50px 0px 50px 0px;
+}
+
+#mission-text {
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #737373;
+}
+
+#mission-header {
+    color: #5e3740;
+    font-size: 2em;
+    margin-top: 0px;
+}
+
+#resources-text p {
+    color: #5e3740;
+    font-size: 30px;
+}
+
+#signup {
+    margin: 50px 0px 50px 0px;
+}
+
+footer {
+    background-color: #d1b1ab;
+    padding: 10px 30px 10px 30px;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+#footer-links {
+    flex-basis: 25%;
+}
+
+.footer-header {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+#footer-links ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+#footer-links li {
+    list-style-image: none;
+    margin-top: 5px;
+}
+
+#footer-follow-us {
+    flex-basis: 50%;
+}
+
+#footer-follow-us p {
+    font-size: 22px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+#social-media-icons-container {
+    text-align:center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+#footer-contact {
+    flex-basis: 25%;
+}
+
+#footer-contact-text {
+    float: right;
+}
+
+#footer-contact .footer-header {
+    float: right;
+}
+#signup-overlay {
+    width: 300px;
+    display: none;
+    position: fixed;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+}

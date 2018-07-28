@@ -1,0 +1,143 @@
+<!Doctype html> 
+<html>
+	<head>
+		<title>Jubilee Plant Box</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="icon" href="img/thumbnail.png">
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- Social Media Icons -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Mail Chimp -->
+		<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				function showMailChimpPopup() {
+					console.log("show mail chimp popup");
+					document.cookie = 'MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+					document.cookie = 'MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+					require(["mojo/signup-forms/Loader"], function(L) {
+						L.start({
+							"baseUrl":"mc.us18.list-manage.com",
+							"uuid":"099f6a1077b87c10d4a068994",
+							"lid":"0809ff1513"
+						});
+					});
+				}
+				$('.button-signup').on('click', showMailChimpPopup);
+			});	
+		</script>
+	</head>
+	<body>
+
+		<div id="all-contents">
+			<nav>
+				<header><a href="home.html"><img id="nav-logo" src="img/nav-logo.png"></a></header>
+                <div id="nav-links">
+	                <ul>
+	                    <li><a href="shop.html">Shop</a></li>
+	                    <li><a href="resources.html">Resources</a></li>
+	                    <li><a href="about.html">About</a></li>
+	                    <li><a href="cart.html">Cart</a></li>
+	                </ul>
+            	</div>
+			</nav>
+			<main>
+				<div id="banner" class="row">
+					<div class="column">
+						<img id="banner-img" src="img/banner.jpg">
+						<div id="banner-img-overlay">
+							<p> Coming Fall 2018 </p>
+							<button class="button-signup">
+								Sign Up For News
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="mission" class="row">
+					<div class="column">
+						<div id="mission-text">
+							<p id='mission-header'>
+								Jubilee Plant Box exists because self care is a little more than just taking time for yourself
+							<p>
+							<p>
+								We're combining the scientific benefits that plants bring to your home, the importance of natural products for your body, and the joy of creativity for your heart, by delivering a little celebration quarterly directly to your doorstep. 
+							</p>
+						</div>
+					</div>
+				</div>
+				<div id="products" class="row">
+					<div class="column">
+						<div class="product">
+							<a href="products.html"><img src="img/basic-jubilee-box.jpg"></a><br>
+							<a href="products.html" class="product-title">Basic Jubilee Plant Box</a><br>
+							<div class="product-description">
+								<p> The convenience of the scientific benefits that plants bring to your home or office, shipped quarterly. </p>
+								<p>[ join the fun ] </p>
+							</div>
+						</div>
+					</div>
+					<div class="column-separator"> 
+					</div>
+					<div class="column">
+						<div class="product">
+							<a href="products.html"><img src="img/premium-jubilee-box.jpg"></a><br>
+							<a href="products.html" class="product-title">Premium Jubilee Plant Box</a><br>
+							<div class="product-description">
+								<p> Nothing short of a celebration of life, creativity, and yourself shipped quarterly to inspire you to take time to give yourself a little more ~love~  </p>
+								<p>[ join the party ]</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="resources" class="row">
+					<div class="column">
+						<div id="resources-text">
+							<p> Join the #PlantLifeParty </p>
+						</div>
+						<div class="snapwidget" style="margin: auto">
+	                  	<!-- SnapWidget -->
+							<iframe src="https://snapwidget.com/embed/570101" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:720px; height:240px"></iframe>
+	                	</div>
+						<div id="instagram-slideshow"></div>
+					</div>
+				</div>
+				<div id="signup" class="row">
+					<div class="column columns-1">
+						<div class="button-container">
+							<button class="button-signup">
+								Sign Up For News
+							</button>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="row">	
+				<div id="footer-links"> 
+					<p class='footer-header'> navigation </p>
+					<ul>
+	                    <li><a href="shop.html">shop</a></li>
+	                    <li><a href="resources.html">resources</a></li>
+	                    <li><a href="about.html">about</a></li>
+	                    <li><a href="cart.html">cart</a></li>
+	                </ul>
+				</div>
+				<div id="footer-follow-us">
+					<p> Stay connected with Jubilee Plant Box on our social media platforms! </p>
+					<div id="social-media-icons-container">
+						<!-- <a href="#" class="fa fa-facebook"></a> -->
+						<!-- <a href="#" class="fa fa-twitter"></a>	 -->
+						<a href="https://www.instagram.com/jubileeplantbox/" class="fa fa-instagram"></a>	
+					</div>
+				</div>
+				<div id="footer-contact">
+					<div id="footer-contact-text">
+						<p class='footer-header'> contact us </p>
+						<p><a href="mailto:jubileeplants@gmail.com?Subject=Hello%20Jubilee!" target="_top">jubileeplants@gmail.com</a></p>
+					</div>
+				</div>
+			</footer>
+		</div>
+		
+	</body>
+</html>

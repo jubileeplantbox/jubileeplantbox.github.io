@@ -101,7 +101,7 @@ button:focus {
     flex: 1;
 }
 
-.column div {
+.centered {
     text-align: center;
 }
 
